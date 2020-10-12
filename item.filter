@@ -1,6 +1,6 @@
-﻿//GOLD
-ItemDisplay[!GOLD<2500 AND CLVL<70]: %NAME%
+//GOLD
 ItemDisplay[!GOLD<2500 AND CLVL>70]: %NAME%
+ItemDisplay[GOLD<2500 AND CLVL<70]: %NAME%
 ItemDisplay[GOLD<2500 AND CLVL>70]:
 
 //END GAME POTIONS
@@ -57,20 +57,20 @@ ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %RED%%NAME%
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %RED%Key of Chaos
-ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %PURPLE%%NAME%
-ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma4]: %PURPLE%%NAME%
-ItemDisplay[ma5]: %PURPLE%%NAME%
-ItemDisplay[ma6]: %PURPLE%%NAME%
-ItemDisplay[ma7]: %PURPLE%%NAME%
-ItemDisplay[ma8]: %PURPLE%%NAME%
-ItemDisplay[ma9]: %PURPLE%%NAME%
-ItemDisplay[ma10]: %PURPLE%%NAME%
-ItemDisplay[maz]: %PURPLE%%NAME%
+ItemDisplay[ma1]: %ORANGE%%NAME%
+ItemDisplay[ma2]: %ORANGE%%NAME%
+ItemDisplay[ma3]: %ORANGE%%NAME%
+ItemDisplay[ma4]: %ORANGE%%NAME%
+ItemDisplay[ma5]: %ORANGE%%NAME%
+ItemDisplay[ma6]: %ORANGE%%NAME%
+ItemDisplay[ma7]: %ORANGE%%NAME%
+ItemDisplay[ma8]: %ORANGE%%NAME%
+ItemDisplay[ma9]: %ORANGE%%NAME%
+ItemDisplay[ma10]: %ORANGE%%NAME%
+ItemDisplay[maz]: %ORANGE%%NAME%
 
 //MISC
-ItemDisplay[leg]: %NAME% %ORANGE%[Moo]
+ItemDisplay[leg]: %WHITE%%NAME% %GRAY%[%ORANGE%Moo %GRAY%| %GREEN%%SOCKETS% soc%GRAY%]
 ItemDisplay[ear]: %PURPLE%%NAME%
 ItemDisplay[tsc]: %GREEN%>%WHITE%TP%GREEN%<
 //ItemDisplay[tsc CLVL<41]: %GREEN%>%WHITE%tp%GREEN%<
@@ -268,10 +268,6 @@ ItemDisplay[UNI !ID ulm]: %RED%+%PURPLE% %NAME% %RED%+
 //Armor
 //Viper Magi
 ItemDisplay[UNI !ETH !ID xea]: %RED%+%PURPLE% %NAME% %RED%+
-//Naj's Chest
-ItemDisplay[SET !ETH !ID ult]: 
-//Duriel's Shell
-ItemDisplay[UNI !ID xrs]: 
 //Shaftstop
 ItemDisplay[UNI !ETH !ID xhn]: %RED%+%PURPLE% %NAME% %RED%+
 //Eth Shaftstop 
@@ -365,8 +361,8 @@ ItemDisplay[UNI !ETH !ID pac]: %PURPLE%%NAME%
 ItemDisplay[UNI !ID rin]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
 ItemDisplay[UNI !ID amu]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
 ItemDisplay[UNI !ID jew]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
-ItemDisplay[UNI (cm1 OR cm2)]: %RED%>>> %PURPLE%%NAME% %RED%<<<
-ItemDisplay[UNI cm3]: %PURPLE%%NAME%
+ItemDisplay[UNI !ID (cm1 OR cm2)]: %RED%>>> %PURPLE%%NAME% %RED%<<<
+ItemDisplay[UNI !ID cm3]: %PURPLE%%NAME%
 ItemDisplay[SET !ID amu]: %NAME%
 
 //UNIQUE/SET Everything Else
