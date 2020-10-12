@@ -404,7 +404,32 @@ ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller
 //Runewords
 ItemDisplay[RW]: %NAME%
 
-//BASES
+//NMAG
+//Exclusions
+ItemDisplay[NMAG 7m7 (!SUP OR SUP)]:
+ItemDisplay[NMAG 7dg (!SUP OR SUP)]:
+ItemDisplay[NMAG 7di (!SUP OR SUP)]:
+ItemDisplay[NMAG 7kr (!SUP OR SUP)]:
+ItemDisplay[NMAG 7bl (!SUP OR SUP)]:
+ItemDisplay[NMAG 7b8 (!SUP OR SUP)]:
+ItemDisplay[NMAG 7ja (!SUP OR SUP)]:
+ItemDisplay[NMAG 7pi (!SUP OR SUP)]:
+ItemDisplay[NMAG 7s7 (!SUP OR SUP)]:
+ItemDisplay[NMAG 7gl (!SUP OR SUP)]:
+ItemDisplay[NMAG 7ts (!SUP OR SUP)]:
+ItemDisplay[NMAG ukp (!SUP OR SUP)]:
+ItemDisplay[NMAG ulm (!SUP OR SUP)]:
+ItemDisplay[NMAG uhl (!SUP OR SUP)]:
+ItemDisplay[NMAG uhm (!SUP OR SUP)]:
+ItemDisplay[NMAG uld !ETH (!SUP OR SUP)]:
+ItemDisplay[NMAG uld !ETH (!SUP OR SUP)]:
+ItemDisplay[NMAG ult !ETH (!SUP OR SUP)]:
+ItemDisplay[NMAG uul !ETH (!SUP OR SUP)]:
+ItemDisplay[NMAG uuc (!SUP OR SUP)]:
+ItemDisplay[NMAG uml (!SUP OR SUP)]:
+ItemDisplay[NMAG uts (!SUP OR SUP)]:
+
+
 //Helms
 ItemDisplay[EQ1 ELT !ETH NMAG (!SUP OR SUP) !SOCK=1]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[EQ1 EXC !ETH NMAG (!SUP OR SUP) !SOCK=1 CLVL<70]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
