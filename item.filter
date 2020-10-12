@@ -274,8 +274,6 @@ ItemDisplay[UNI !ETH !ID xhn]: %RED%+%PURPLE% %NAME% %RED%+
 ItemDisplay[UNI !ID xhn]: %RED%+%GRAY% Eth %PURPLE%%NAME%%RED%+
 //Tyrael's Might
 ItemDisplay[UNI !ETH !ID uar]: %RED%+%PURPLE% %NAME% %RED%+
-//Guardian Angel
-ItemDisplay[UNI !ETH !ID xlt]: %RED%+%PURPLE% %NAME% %RED%+
 //Tal Rasha Armour
 ItemDisplay[SET !ETH !ID uth]: %RED%+%PURPLE% %NAME% %RED%+ 
 //Immortal King Armour
