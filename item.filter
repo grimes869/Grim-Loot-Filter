@@ -430,7 +430,7 @@ ItemDisplay[EQ2 NORM NMAG (!SUP OR SUP) !ETH CLVL<50]: %WHITE%%NAME% %GRAY%(%GRE
 
 //Elite Shields
 ItemDisplay[uit !ETH (SOCK=0 OR SOCK=4) !DEF<145 NMAG]: %WHITE%%NAME% %GRAY%(%PURPLE%145+ def %GRAY%| %GREEN%%SOCKETS% soc%GRAY%)
-ItemDisplay[(uit OR ush OR upk OR uml OR urg OR uuc) !ETH (SOCK=0 OR SOCK>2) NMAG]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS%%GRAY%)
+ItemDisplay[(uit OR ush OR upk OR uml OR urg OR uuc) !ETH (SOCK=0 OR SOCK>2) NMAG]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 
 //Exceptional Shields:
 ItemDisplay[EQ3 NORM NMAG (!SUP OR SUP) !ETH !SOCK=1 CLVL<70]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
