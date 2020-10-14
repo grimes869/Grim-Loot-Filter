@@ -1,3 +1,7 @@
+//	GRIM LOOT FILTER
+//	https://github.com/grimes869/Grim-Loot-Filter/edit/main/item.filter
+//	/w *grimes869
+
 //GOLD
 ItemDisplay[!GOLD<2500 AND CLVL>70]: %NAME%
 ItemDisplay[GOLD<2500 AND CLVL<70]: %NAME%
@@ -72,11 +76,11 @@ ItemDisplay[maz]: %ORANGE%%NAME%
 //MISC
 ItemDisplay[leg]: %WHITE%%NAME% %GRAY%[%ORANGE%Moo %GRAY%| %GREEN%%SOCKETS% soc%GRAY%]
 ItemDisplay[ear]: %PURPLE%%NAME%
-ItemDisplay[tsc]: %GREEN%>%WHITE%TP%GREEN%<
-//ItemDisplay[tsc CLVL<41]: %GREEN%>%WHITE%tp%GREEN%<
+ItemDisplay[tsc]: %GREEN%<%WHITE%tp%GREEN%>
+//ItemDisplay[tsc CLVL<41]: %GREEN%<%WHITE%tp%GREEN%>
 //ItemDisplay[tsc CLVL>40]:
-ItemDisplay[isc]: %RED%>%WHITE%ID%RED%<
-//ItemDisplay[isc CLVL<41]: %RED%>%WHITE%id%RED%<
+ItemDisplay[isc]: %RED%<%WHITE%id%RED%>
+//ItemDisplay[isc CLVL<41]: %RED%<%WHITE%id%RED%>
 //ItemDisplay[isc CLVL>40]:
 
 //Keys for Locked Chests
@@ -242,8 +246,7 @@ ItemDisplay[skl]: %TAN%Skull %WHITE%[4]
 ItemDisplay[skz]: %TAN%Skull %WHITE%[5]
 
 //Uniques
-//
-//Helms
+//Helmets
 //Griffon's Eye
 ItemDisplay[UNI !ETH !ID ci3]: %RED%+%PURPLE% %NAME% %RED%+
 //Shako
@@ -355,7 +358,7 @@ ItemDisplay[UNI !ETH !ID uow]: %PURPLE%%NAME%
 //Alma Negra
 ItemDisplay[UNI !ETH !ID pac]: %PURPLE%%NAME%
 
-//UNIQUE Rings Amulets Jewels Charms
+//Rings/Amulets/Jewels/Charms
 ItemDisplay[UNI !ID rin]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
 ItemDisplay[UNI !ID amu]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
 ItemDisplay[UNI !ID jew]: %RED%>>>%PURPLE% Unique %NAME% %RED%<<<
@@ -363,41 +366,15 @@ ItemDisplay[UNI !ID (cm1 OR cm2)]: %RED%>>> %PURPLE%%NAME% %RED%<<<
 ItemDisplay[UNI !ID cm3]: %PURPLE%%NAME%
 ItemDisplay[SET !ID amu]: %NAME%
 
-//UNIQUE/SET Everything Else
-ItemDisplay[UNI !ID]: %NAME%
-ItemDisplay[SET !ID]: %NAME%
-
-//UNIQUE&SET Eth/Socket fILTER
-ItemDisplay[UNI ETH SOCK>0 !ID]: Eth %NAME% [%SOCKETS%]
-ItemDisplay[SET ETH SOCK>0 !ID]: Eth %NAME% [%SOCKETS%]
-ItemDisplay[UNI ETH !ID]: Eth %NAME%
-ItemDisplay[SET ETH !ID]: Eth %NAME%
-ItemDisplay[UNI SOCK>0 !ID]: %NAME% [%SOCKETS%]
-ItemDisplay[SET SOCK>0 !ID]: %NAME% [%SOCKETS%]	
-ItemDisplay[UNI !ID]: %NAME%
-ItemDisplay[SET !ID]: %NAME%
-ItemDisplay[UNI ETH SOCK>0]: Eth %NAME% [%SOCKETS%]
-ItemDisplay[SET ETH SOCK>0]: Eth %NAME% [%SOCKETS%]
-ItemDisplay[UNI ETH]: Eth %NAME%
-ItemDisplay[SET ETH]: Eth %NAME%
-ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[UNI]: %NAME%
-ItemDisplay[SET]: %NAME%
-
-//ID Section
-ItemDisplay[MAG ID cm3 TABSK8=1]:%PURPLE%Fire Skiller
-ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Light Skiller
-ItemDisplay[MAG ID cm3 TABSK10=1]:%PURPLE%Cold Skiller
-ItemDisplay[MAG ID cm3 TABSK17=1]:%PURPLE%PnB Skiller
-ItemDisplay[MAG ID cm3 TABSK24=1]:%PURPLE%PComb Skiller
-ItemDisplay[MAG ID cm3 TABSK48=1]:%PURPLE%Trap Skiller
-ItemDisplay[MAG ID cm3 TABSK42=1]:%PURPLE%Ele Skiller
-ItemDisplay[MAG ID cm3 TABSK41=1]:%PURPLE%SS Skiller
-ItemDisplay[MAG ID cm3 TABSK40=1]:%PURPLE%Dru Sum Skiller
-ItemDisplay[MAG ID cm3 TABSK18=1]:%PURPLE%Nec Sum Skiller
-ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller
-ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller
+//Everything Else
+ItemDisplay[UNI ETH SOCK>0]: %GRAY%Eth %GOLD%%NAME% [%SOCKETS%]
+ItemDisplay[UNI !ETH SOCK>0]: NAME% [%SOCKETS%]
+ItemDisplay[UNI ETH SOCK=0]: %GRAY%Eth %GOLD%%NAME%
+ItemDisplay[UNI !ETH SOCK=0]: %NAME%
+ItemDisplay[SET ETH SOCK>0]: %GRAY%Eth %GREEN%%NAME% [%SOCKETS%]
+ItemDisplay[SET !ETH SOCK>0]: NAME% [%SOCKETS%]
+ItemDisplay[SET ETH SOCK=0]: %GRAY%Eth %GREEN%%NAME%
+ItemDisplay[SET !ETH SOCK=0]: %NAME%
 
 //Runewords
 ItemDisplay[RW]: %NAME%
@@ -750,3 +727,49 @@ ItemDisplay[MAG !ID CLVL<45]: %NAME%
 
 //Hide Rest
 ItemDisplay[MAG !ID]:
+
+//Charms Identified
+//Skillful Lifers
+ItemDisplay[MAG ID cm3 TABSK0=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Bow & Crossbow]
+ItemDisplay[MAG ID cm3 TABSK1=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Passive & Magic]
+ItemDisplay[MAG ID cm3 TABSK2=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Javelin & Spear]
+ItemDisplay[MAG ID cm3 TABSK8=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Fire]
+ItemDisplay[MAG ID cm3 TABSK9=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Light]
+ItemDisplay[MAG ID cm3 TABSK10=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Cold]
+ItemDisplay[MAG ID cm3 TABSK16=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Curses]
+ItemDisplay[MAG ID cm3 TABSK17=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Poison & Bone]
+ItemDisplay[MAG ID cm3 TABSK18=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Summoning (Necromancer)]
+ItemDisplay[MAG ID cm3 TABSK24=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Combat (Paladin)]
+ItemDisplay[MAG ID cm3 TABSK25=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Offensive Auras]
+ItemDisplay[MAG ID cm3 TABSK26=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Defensive Auras]
+ItemDisplay[MAG ID cm3 TABSK32=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Combat (Barbarian)]
+ItemDisplay[MAG ID cm3 TABSK33=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Masteries]
+ItemDisplay[MAG ID cm3 TABSK34=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Warcries]
+ItemDisplay[MAG ID cm3 TABSK40=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Summoning (Druid)]
+ItemDisplay[MAG ID cm3 TABSK41=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Shape Shifting]
+ItemDisplay[MAG ID cm3 TABSK42=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Elemental]
+ItemDisplay[MAG ID cm3 TABSK48=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Traps]
+ItemDisplay[MAG ID cm3 TABSK49=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Shadow Disciplines]
+ItemDisplay[MAG ID cm3 TABSK50=1 LIFE>0]: %RED%Lively %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Traps]
+//Skills
+ItemDisplay[MAG ID cm3 TABSK0=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Bow & Crossbow]
+ItemDisplay[MAG ID cm3 TABSK1=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Passive & Magic]
+ItemDisplay[MAG ID cm3 TABSK2=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Javelin & Spear]
+ItemDisplay[MAG ID cm3 TABSK8=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Fire]
+ItemDisplay[MAG ID cm3 TABSK9=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Light]
+ItemDisplay[MAG ID cm3 TABSK10=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Cold]
+ItemDisplay[MAG ID cm3 TABSK16=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Curses]
+ItemDisplay[MAG ID cm3 TABSK17=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Poison & Bone]
+ItemDisplay[MAG ID cm3 TABSK18=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Summoning (Necromancer)]
+ItemDisplay[MAG ID cm3 TABSK24=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Combat (Paladin)]
+ItemDisplay[MAG ID cm3 TABSK25=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Offensive Auras]
+ItemDisplay[MAG ID cm3 TABSK26=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Defensive Auras]
+ItemDisplay[MAG ID cm3 TABSK32=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Combat (Barbarian)]
+ItemDisplay[MAG ID cm3 TABSK33=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Masteries]
+ItemDisplay[MAG ID cm3 TABSK34=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Warcries]
+ItemDisplay[MAG ID cm3 TABSK40=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Summoning (Druid)]
+ItemDisplay[MAG ID cm3 TABSK41=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Shape Shifting]
+ItemDisplay[MAG ID cm3 TABSK42=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Elemental]
+ItemDisplay[MAG ID cm3 TABSK48=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Traps]
+ItemDisplay[MAG ID cm3 TABSK49=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Shadow Disciplines]
+ItemDisplay[MAG ID cm3 TABSK50=1]: %PURPLE%Skillful %BLUE%Grand Charm %PURPLE%[Traps]
