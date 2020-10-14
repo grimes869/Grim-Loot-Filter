@@ -368,11 +368,11 @@ ItemDisplay[SET !ID amu]: %NAME%
 
 //Everything Else
 ItemDisplay[UNI ETH SOCK>0]: %GRAY%Eth %GOLD%%NAME% [%SOCKETS%]
-ItemDisplay[UNI !ETH SOCK>0]: NAME% [%SOCKETS%]
+ItemDisplay[UNI !ETH SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH SOCK=0]: %GRAY%Eth %GOLD%%NAME%
 ItemDisplay[UNI !ETH SOCK=0]: %NAME%
 ItemDisplay[SET ETH SOCK>0]: %GRAY%Eth %GREEN%%NAME% [%SOCKETS%]
-ItemDisplay[SET !ETH SOCK>0]: NAME% [%SOCKETS%]
+ItemDisplay[SET !ETH SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[SET ETH SOCK=0]: %GRAY%Eth %GREEN%%NAME%
 ItemDisplay[SET !ETH SOCK=0]: %NAME%
 
