@@ -112,9 +112,9 @@ ItemDisplay[r06]: %TAN%%RUNENAME% %WHITE%[6]
 //TAL
 ItemDisplay[r07]: %TAN%%RUNENAME% %WHITE%[7]
 //RAL
-ItemDisplay[r08]: %TAN%%RUNENAME% %WHITE%[8]
+ItemDisplay[r08]: %TAN%%RUNENAME% %WHITE%[8] %RED%(Repair)
 //ORT
-ItemDisplay[r09]: %TAN%%RUNENAME% %WHITE%[9]
+ItemDisplay[r09]: %TAN%%RUNENAME% %WHITE%[9] %RED%(Repair)
 //THUL
 ItemDisplay[r10]: %TAN%%RUNENAME% %WHITE%[10]
 //AMN
@@ -138,31 +138,31 @@ ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
 //LEM
 ItemDisplay[r20]: %RED%%RUNENAME% %WHITE%[20]
 //PUL
-ItemDisplay[r21]: %TAN%> %RED%%RUNENAME% %WHITE%[21] %TAN%<
+ItemDisplay[r21]: %TAN%>> %RED%%RUNENAME% %WHITE%[21] %TAN%<<
 //UM
-ItemDisplay[r22]: %TAN%>> %RED%%RUNENAME% %WHITE%[22] %TAN%<<
+ItemDisplay[r22]: %TAN%>>> %RED%%RUNENAME% %WHITE%[22] %TAN%<<<
 //MAL
-ItemDisplay[r23]: %TAN%>> %RED%%RUNENAME% %WHITE%[23] %TAN%<<
+ItemDisplay[r23]: %TAN%>>> %RED%%RUNENAME% %WHITE%[23] %TAN%<<<
 //IST
-ItemDisplay[r24]: %TAN%>>> %RED%%RUNENAME% %WHITE%[24] %TAN%<<<
+ItemDisplay[r24]: %TAN%>>>> %RED%%RUNENAME% %WHITE%[24] %TAN%<<<<
 //GUL
-ItemDisplay[r25]: %RED%>> %PURPLE%%RUNENAME% %WHITE%[25] %RED%<<
+ItemDisplay[r25]: %RED%>>> %PURPLE%%RUNENAME% %WHITE%[25] %RED%<<<
 //VEX
-ItemDisplay[r26]: %RED%>>> %PURPLE%%RUNENAME% %WHITE%[26] %RED%<<<
+ItemDisplay[r26]: %RED%>>>> %PURPLE%%RUNENAME% %WHITE%[26] %RED%<<<<
 //OHM
-ItemDisplay[r27]: %RED%>>>> %PURPLE%%RUNENAME% %WHITE%[27] %RED%<<<<
+ItemDisplay[r27]: %RED%>>>>> %PURPLE%%RUNENAME% %WHITE%[27] %RED%<<<<<
 //LO
-ItemDisplay[r28]: %RED%>>>>>> %PURPLE%%RUNENAME% %WHITE%[28] %RED%<<<<<<
+ItemDisplay[r28]: %RED%>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[28] %RED%<<<<<<<<
 //SUR
-ItemDisplay[r29]: %RED%>>>>> %PURPLE%%RUNENAME% %WHITE%[29] %RED%<<<<<
+ItemDisplay[r29]: %RED%>>>>>>> %PURPLE%%RUNENAME% %WHITE%[29] %RED%<<<<<<<
 //BER
-ItemDisplay[r30]: %RED%>>>>>>> %PURPLE%%RUNENAME% %WHITE%[30] %RED%<<<<<<<
+ItemDisplay[r30]: %RED%>>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[30] %RED%<<<<<<<<<
 //JAH
-ItemDisplay[r31]: %RED%>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[31] %RED%<<<<<<<<
+ItemDisplay[r31]: %RED%>>>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[31] %RED%<<<<<<<<<<
 //CHAM
-ItemDisplay[r32]: %RED%>>> %PURPLE%%RUNENAME% %WHITE%[32] %RED%<<<
+ItemDisplay[r32]: %RED%>>>> %PURPLE%%RUNENAME% %WHITE%[32] %RED%<<<<
 //ZOD
-ItemDisplay[r33]: %RED%>>>>> %PURPLE%%RUNENAME% %WHITE%[33] %RED%<<<<<
+ItemDisplay[r33]: %RED%>>>>>>> %PURPLE%%RUNENAME% %WHITE%[33] %RED%<<<<<<<
 
 //Quest Items
 ItemDisplay[bbb]: %TAN%%NAME%
