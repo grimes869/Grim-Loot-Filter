@@ -112,9 +112,9 @@ ItemDisplay[r06]: %TAN%%RUNENAME% %WHITE%[6]
 //TAL
 ItemDisplay[r07]: %TAN%%RUNENAME% %WHITE%[7]
 //RAL
-ItemDisplay[r08]: %TAN%%RUNENAME% %WHITE%[8] %RED%(Armor+)
+ItemDisplay[r08]: %TAN%%RUNENAME% %WHITE%[8] %RED%(Armor)
 //ORT
-ItemDisplay[r09]: %TAN%%RUNENAME% %WHITE%[9] %RED%(Weapon+)
+ItemDisplay[r09]: %TAN%%RUNENAME% %WHITE%[9] %RED%(Weapon)
 //THUL
 ItemDisplay[r10]: %TAN%%RUNENAME% %WHITE%[10]
 //AMN
