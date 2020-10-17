@@ -252,8 +252,6 @@ ItemDisplay[UNI !ETH !ID baa]: %RED%+%PURPLE% %NAME% %RED%+
 ItemDisplay[UNI !ETH !ID dra]: %RED%+%PURPLE% %NAME% %RED%+
 //Ravenlore
 ItemDisplay[UNI !ETH !ID dre]: %PURPLE%%NAME%
-//G Face
-ItemDisplay[SET !ETH !ID xhm]: %NAME%
 //STEEL SHADE
 ItemDisplay[UNI !ID ulm]: %RED%+%PURPLE% %NAME% %RED%+
 
@@ -268,8 +266,6 @@ ItemDisplay[UNI !ID xhn]: %RED%+ %GRAY%Eth %PURPLE%%NAME%%RED%+
 ItemDisplay[UNI !ETH !ID uar]: %RED%+%PURPLE% %NAME% %RED%+
 //Tal Rasha Armour
 ItemDisplay[SET !ETH !ID uth]: %RED%+%PURPLE% %NAME% %RED%+ 
-//Immortal King Armour
-ItemDisplay[SET !ETH !ID uar]: %NAME%
 
 //Gloves
 //Dracul's Grasp
