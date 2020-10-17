@@ -368,6 +368,7 @@ ItemDisplay[RW]: %NAME%
 //Exclusions
 ItemDisplay[INF !RW !leg]:
 ItemDisplay[NMAG SOCK=1 !CLVL<30]:
+ItemDisplay[NMAG 7ga (!SUP OR SUP)]:
 ItemDisplay[NMAG 7m7 (!SUP OR SUP)]:
 ItemDisplay[NMAG 7dg (!SUP OR SUP)]:
 ItemDisplay[NMAG 7di (!SUP OR SUP)]:
@@ -389,7 +390,12 @@ ItemDisplay[NMAG ult !ETH (!SUP OR SUP)]:
 ItemDisplay[NMAG uul !ETH (!SUP OR SUP)]:
 ItemDisplay[NMAG uuc (!SUP OR SUP)]:
 ItemDisplay[NMAG uml (!SUP OR SUP)]:
+ItemDisplay[NMAG uow (!SUP OR SUP)]:
 ItemDisplay[NMAG uts (!SUP OR SUP)]:
+ItemDisplay[NMAG upk (!SUP OR SUP)]:
+ItemDisplay[NMAG 6lx (!SUP OR SUP)]:
+ItemDisplay[NMAG 6hx (!SUP OR SUP)]:
+ItemDisplay[NMAG 6rx (!SUP OR SUP)]:
 
 //Helms
 ItemDisplay[EQ1 ELT !ETH NMAG (!SUP OR SUP) !SOCK=1]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
