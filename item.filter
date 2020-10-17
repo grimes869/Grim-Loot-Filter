@@ -728,6 +728,10 @@ ItemDisplay[RARE ARMOR ETH !ID !ILVL<66 !CLVL<70]: %GRAY%Eth %YELLOW%%NAME%
 ItemDisplay[RARE ARMOR ETH !ID !ILVL<30 !CLVL<45]: %GRAY%Eth %YELLOW%%NAME%
 ItemDisplay[RARE ARMOR ETH !ID CLVL<45]: %GRAY%Eth %YELLOW%%NAME%
 
+//ID
+ItemDisplay[RARE !ETH ID]: %NAME%
+ItemDisplay[RARE ETH ID]: %GRAY%Eth %YELLOW%%NAME%
+
 //Hide Rest
 ItemDisplay[ARMOR RARE]:
 ItemDisplay[WEAPON RARE]:
