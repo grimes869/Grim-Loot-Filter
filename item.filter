@@ -371,34 +371,37 @@ ItemDisplay[RW]: %NAME%
 //Exclusions
 ItemDisplay[INF !RW !leg]:
 ItemDisplay[NMAG SOCK=1 !CLVL<30]:
-ItemDisplay[NMAG 7ga (!SUP OR SUP)]:
-ItemDisplay[NMAG 7m7 (!SUP OR SUP)]:
-ItemDisplay[NMAG 7dg (!SUP OR SUP)]:
-ItemDisplay[NMAG 7di (!SUP OR SUP)]:
-ItemDisplay[NMAG 7kr (!SUP OR SUP)]:
-ItemDisplay[NMAG 7bl (!SUP OR SUP)]:
-ItemDisplay[NMAG 7b8 (!SUP OR SUP)]:
-ItemDisplay[NMAG 7ja (!SUP OR SUP)]:
-ItemDisplay[NMAG 7pi (!SUP OR SUP)]:
-ItemDisplay[NMAG 7s7 (!SUP OR SUP)]:
-ItemDisplay[NMAG 7gl (!SUP OR SUP)]:
-ItemDisplay[NMAG 7ts (!SUP OR SUP)]:
-ItemDisplay[NMAG ukp (!SUP OR SUP)]:
-ItemDisplay[NMAG ulm (!SUP OR SUP)]:
-ItemDisplay[NMAG uhl (!SUP OR SUP)]:
-ItemDisplay[NMAG uhm (!SUP OR SUP)]:
-ItemDisplay[NMAG uld !ETH (!SUP OR SUP)]:
-ItemDisplay[NMAG uld !ETH (!SUP OR SUP)]:
-ItemDisplay[NMAG ult !ETH (!SUP OR SUP)]:
-ItemDisplay[NMAG uul !ETH (!SUP OR SUP)]:
-ItemDisplay[NMAG uuc (!SUP OR SUP)]:
-ItemDisplay[NMAG uml (!SUP OR SUP)]:
-ItemDisplay[NMAG uow (!SUP OR SUP)]:
-ItemDisplay[NMAG uts (!SUP OR SUP)]:
-ItemDisplay[NMAG upk (!SUP OR SUP)]:
-ItemDisplay[NMAG 6lx (!SUP OR SUP)]:
-ItemDisplay[NMAG 6hx (!SUP OR SUP)]:
-ItemDisplay[NMAG 6rx (!SUP OR SUP)]:
+ItemDisplay[NMAG 7ga (!SUP OR SUP)]://Champion Axe
+ItemDisplay[NMAG 7m7 (!SUP OR SUP)]://Ogre Maul
+ItemDisplay[NMAG 7dg (!SUP OR SUP)]://Bone Knife
+ItemDisplay[NMAG 7di (!SUP OR SUP)]://Mithril Point
+ItemDisplay[NMAG 7kr (!SUP OR SUP)]://Fanged Knife
+ItemDisplay[NMAG 7bl (!SUP OR SUP)]://Legend Spike
+ItemDisplay[NMAG 7b8 (!SUP OR SUP)]://Winged Knife
+ItemDisplay[NMAG 7ja (!SUP OR SUP)]://Hyperion Javelin
+ItemDisplay[NMAG 7pi (!SUP OR SUP)]://Stygian Pilum
+ItemDisplay[NMAG 7s7 (!SUP OR SUP)]://Balrog Spear
+ItemDisplay[NMAG 7gl (!SUP OR SUP)]://Ghost Glaive
+ItemDisplay[NMAG 7ts (!SUP OR SUP)]://Winged Harpoon
+ItemDisplay[NMAG ukp (!SUP OR SUP)]://Hydraskull
+ItemDisplay[NMAG ulm (!SUP OR SUP)]://Armet
+ItemDisplay[NMAG uhl (!SUP OR SUP)]://Giant Conch
+ItemDisplay[NMAG uhm (!SUP OR SUP)]://Spired Helm
+ItemDisplay[NMAG urn (!SUP OR SUP)]://Corona
+ItemDisplay[NMAG urs !ETH (!SUP OR SUP)]://Great Hauberk (Non-eth)
+ItemDisplay[NMAG uld !ETH (!SUP OR SUP)]://Kraken Shell (Non-eth)
+ItemDisplay[NMAG ult !ETH (!SUP OR SUP)]://Hellforged Plate (Non-eth)
+ItemDisplay[NMAG uth !ETH (!SUP OR SUP)]://Lacquered Plate (Non-eth)
+ItemDisplay[NMAG uul !ETH (!SUP OR SUP)]://Shadow Plate(Non-eth)
+ItemDisplay[NMAG uuc (!SUP OR SUP)]://Heater
+ItemDisplay[NMAG uml (!SUP OR SUP)]://Luna
+ItemDisplay[NMAG uow (!SUP OR SUP)]://Aegis
+ItemDisplay[NMAG uts (!SUP OR SUP)]://Ward
+ItemDisplay[NMAG upk (!SUP OR SUP)]://Blade Barrier
+ItemDisplay[NMAG 6lx (!SUP OR SUP)]://Pellet Bow
+ItemDisplay[NMAG 6mx (!SUP OR SUP)]://Gorgon Crossbow
+ItemDisplay[NMAG 6hx (!SUP OR SUP)]://Colossus Crossbow
+ItemDisplay[NMAG 6rx (!SUP OR SUP)]://Demon Crossbow
 
 //Helms
 ItemDisplay[EQ1 ELT !ETH NMAG (!SUP OR SUP) !SOCK=1]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
@@ -787,9 +790,6 @@ ItemDisplay[MAG ETH amf !ID]: %GRAY%Eth %BLUE%%NAME% %GREEN%[%ILVL%]
 //Leveling
 ItemDisplay[MAG !ID !CLVL>45]: %NAME%
 
-//ID
-ItemDisplay[MAG !ETH ID]: %NAME%
-
 //Hide Rest
 ItemDisplay[MAG !ID]:
 
@@ -838,3 +838,6 @@ ItemDisplay[MAG ID cm3 TABSK42=1]: %PURPLE%Skiller %BLUE%Grand Charm %PURPLE%[El
 ItemDisplay[MAG ID cm3 TABSK48=1]: %PURPLE%Skiller %BLUE%Grand Charm %PURPLE%[Traps]
 ItemDisplay[MAG ID cm3 TABSK49=1]: %PURPLE%Skiller %BLUE%Grand Charm %PURPLE%[Shadow Disciplines]
 ItemDisplay[MAG ID cm3 TABSK50=1]: %PURPLE%Skiller %BLUE%Grand Charm %PURPLE%[Traps]
+
+//ID
+ItemDisplay[MAG !ETH ID]: %NAME%
