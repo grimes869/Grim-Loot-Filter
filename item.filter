@@ -44,18 +44,18 @@ ItemDisplay[vps]:
 ItemDisplay[vps]:
 
 //UBER KEYS
-ItemDisplay[pk1]: %RED%Terror [Countess]
-ItemDisplay[pk2]: %RED%Hate [Summoner]
-ItemDisplay[pk3]: %RED%Destruction [Nihlathak]
+ItemDisplay[pk1]: %ORANGE%Terror %RED%[Countess]
+ItemDisplay[pk2]: %ORANGE%Hate %RED%[Summoner]
+ItemDisplay[pk3]: %ORANGE%Destruction %RED%[Nihlathak]
 ItemDisplay[dhn]: %PURPLE%Diablo's Horn
 ItemDisplay[bey]: %PURPLE%Baal's Eye
 ItemDisplay[mbr]: %PURPLE%Mephisto's Brain
 
 //ESSENCES + TOKEN
-ItemDisplay[tes]: %RED%Suffering [Andariel | Duriel]
-ItemDisplay[ceh]: %RED%Hatred [Mephisto]
-ItemDisplay[bet]: %RED%Terror [Diablo]
-ItemDisplay[fed]: %ORANGE%>>> %RED%Destruction [Baal] %ORANGE%<<<
+ItemDisplay[tes]: %ORANGE%Suffering %RED%[Andariel | Duriel]
+ItemDisplay[ceh]: %ORANGE%Hatred %RED%[Mephisto]
+ItemDisplay[bet]: %ORANGE%Terror %RED%[Diablo]
+ItemDisplay[fed]: %RED%>>> %ORANGE%Destruction %RED%[Baal] %RED%<<<
 ItemDisplay[toa]: %PURPLE%Token of Absolution
 
 //POD ITEMS
