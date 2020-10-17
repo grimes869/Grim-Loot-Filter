@@ -778,6 +778,9 @@ ItemDisplay[MAG ETH amf !ID]: %GRAY%Eth %BLUE%%NAME% %GREEN%[%ILVL%]
 //Leveling
 ItemDisplay[MAG !ID !CLVL>45]: %NAME%
 
+//ID
+ItemDisplay[MAG !ETH ID]: %NAME%
+
 //Hide Rest
 ItemDisplay[MAG !ID]:
 
