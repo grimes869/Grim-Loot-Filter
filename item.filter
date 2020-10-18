@@ -1,9 +1,12 @@
 //
-//	GRIM LOOT FILTER
+//	[ G R I M   L O O T   F I L T E R ]
 //	https://github.com/grimes869/Grim-Loot-Filter/edit/main/item.filter
-//	/w *grimes869
-//	
-//	LAST UPDATE: 10/17/2020
+//	LAST UPDATE: 10/18/2020
+//
+//	For questions, concerns, or help making changes:
+//	IGN:	*grimes869
+//	Discord:	Grimes869#5656
+//	Email:	grimes869@gmail.com
 //	
 
 
@@ -80,12 +83,12 @@ ItemDisplay[maz]: %ORANGE%%NAME%
 
 //MISC
 ItemDisplay[tbk]: %NAME%
-ItemDisplay[tsc]: %GREEN%<%WHITE%tp%GREEN%>
-//ItemDisplay[tsc !CLVL>60]: %GREEN%<%WHITE%tp%GREEN%>
+ItemDisplay[tsc]: %BLUE%!%GRAY%tp
+//ItemDisplay[tsc !CLVL>60]: %BLUE%!%GRAY%tp
 //ItemDisplay[tsc CLVL>60]:
 ItemDisplay[ibk]: %NAME%
-ItemDisplay[isc]: %RED%<%WHITE%id%RED%>
-//ItemDisplay[isc !CLVL>60]: %RED%<%WHITE%id%RED%>
+ItemDisplay[isc]: %RED%!%GRAY%id
+//ItemDisplay[isc !CLVL>60]: %RED%!%GRAY%id
 //ItemDisplay[isc CLVL>60]:
 ItemDisplay[leg]: %WHITE%%NAME% %GRAY%[%ORANGE%Moo %GRAY%| %GREEN%%SOCKETS% soc%GRAY%]
 ItemDisplay[ear]: %PURPLE%%NAME%
