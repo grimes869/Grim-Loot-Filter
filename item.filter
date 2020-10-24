@@ -1,7 +1,7 @@
 //
 //	[ G R I M   L O O T   F I L T E R ]
 //	https://github.com/grimes869/Grim-Loot-Filter/edit/main/item.filter
-//	LAST UPDATE: 10/18/2020
+//	LAST UPDATE: 10/24/2020
 //
 //	For questions, concerns, or help making changes:
 //	IGN:   *grimes869
@@ -96,71 +96,71 @@ ItemDisplay[key]: %GRAY%Key
 //Runes
 //
 //EL
-ItemDisplay[r01]: %TAN%%RUNENAME% %WHITE%[1]
+ItemDisplay[r01]: %TAN%%NAME% %WHITE%[1]
 //ELD
-ItemDisplay[r02]: %TAN%%RUNENAME% %WHITE%[2]
+ItemDisplay[r02]: %TAN%%NAME% %WHITE%[2]
 //TIR
-ItemDisplay[r03]: %TAN%%RUNENAME% %WHITE%[3]
+ItemDisplay[r03]: %TAN%%NAME% %WHITE%[3]
 //NEF
-ItemDisplay[r04]: %TAN%%RUNENAME% %WHITE%[4]
+ItemDisplay[r04]: %TAN%%NAME% %WHITE%[4]
 //ETH
-ItemDisplay[r05]: %TAN%%RUNENAME% %WHITE%[5]
+ItemDisplay[r05]: %TAN%%NAME% %WHITE%[5]
 //ITH
-ItemDisplay[r06]: %TAN%%RUNENAME% %WHITE%[6]
+ItemDisplay[r06]: %TAN%%NAME% %WHITE%[6]
 //TAL
-ItemDisplay[r07]: %TAN%%RUNENAME% %WHITE%[7]
+ItemDisplay[r07]: %TAN%%NAME% %WHITE%[7]
 //RAL
-ItemDisplay[r08]: %TAN%%RUNENAME% %WHITE%[8] %RED%(Armor)
+ItemDisplay[r08]: %TAN%%NAME% %WHITE%[8] %RED%(Armor)
 //ORT
-ItemDisplay[r09]: %TAN%%RUNENAME% %WHITE%[9] %RED%(Weapon)
+ItemDisplay[r09]: %TAN%%NAME% %WHITE%[9] %RED%(Weapon)
 //THUL
-ItemDisplay[r10]: %TAN%%RUNENAME% %WHITE%[10]
+ItemDisplay[r10]: %TAN%%NAME% %WHITE%[10]
 //AMN
-ItemDisplay[r11]: %TAN%%RUNENAME% %WHITE%[11]
+ItemDisplay[r11]: %TAN%%NAME% %WHITE%[11]
 //SOL
-ItemDisplay[r12]: %TAN%%RUNENAME% %WHITE%[12]
+ItemDisplay[r12]: %TAN%%NAME% %WHITE%[12]
 //SHAEL
-ItemDisplay[r13]: %TAN%%RUNENAME% %WHITE%[13]
+ItemDisplay[r13]: %TAN%%NAME% %WHITE%[13]
 //DOL
-ItemDisplay[r14]: %ORANGE%%RUNENAME% %WHITE%[14]
+ItemDisplay[r14]: %ORANGE%%NAME% %WHITE%[14]
 //HEL
-ItemDisplay[r15]: %ORANGE%%RUNENAME% %WHITE%[15]
+ItemDisplay[r15]: %ORANGE%%NAME% %WHITE%[15]
 //IO
-ItemDisplay[r16]: %ORANGE%%RUNENAME% %WHITE%[16]
+ItemDisplay[r16]: %ORANGE%%NAME% %WHITE%[16]
 //LUM
-ItemDisplay[r17]: %ORANGE%%RUNENAME% %WHITE%[17]
+ItemDisplay[r17]: %ORANGE%%NAME% %WHITE%[17]
 //KO
-ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
+ItemDisplay[r18]: %ORANGE%%NAME% %WHITE%[18]
 //FAL
-ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
+ItemDisplay[r19]: %ORANGE%%NAME% %WHITE%[19]
 //LEM
-ItemDisplay[r20]: %RED%%RUNENAME% %WHITE%[20] 
+ItemDisplay[r20]: %RED%%NAME% %WHITE%[20]
 //PUL
-ItemDisplay[r21]: %TAN%>> %RED%%RUNENAME% %WHITE%[21] %TAN%<<
+ItemDisplay[r21]: %TAN%> > %RED%%NAME% %WHITE%[21] %TAN%< <
 //UM
-ItemDisplay[r22]: %TAN%>> %RED%%RUNENAME% %WHITE%[22] %TAN%<<
+ItemDisplay[r22]: %TAN%> > %RED%%NAME% %WHITE%[22] %TAN%< <
 //MAL
-ItemDisplay[r23]: %TAN%>>> %RED%%RUNENAME% %WHITE%[23] %TAN%<<<
+ItemDisplay[r23]: %TAN%> > > %RED%%NAME% %WHITE%[23] %TAN%< < <
 //IST
-ItemDisplay[r24]: %TAN%>>> %RED%%RUNENAME% %WHITE%[24] %TAN%<<<
+ItemDisplay[r24]: %RED%> > > %PURPLE%%NAME% %WHITE%[24] %RED%< < <
 //GUL
-ItemDisplay[r25]: %RED%>>>> %PURPLE%%RUNENAME% %WHITE%[25] %RED%<<<<
+ItemDisplay[r25]: %RED%> > > > %PURPLE%%NAME% %WHITE%[25] %RED%< < < <
 //VEX
-ItemDisplay[r26]: %RED%>>>>> %PURPLE%%RUNENAME% %WHITE%[26] %RED%<<<<<
+ItemDisplay[r26]: %RED%> > > > > %PURPLE%%NAME% %WHITE%[26] %RED%< < < < <
 //OHM
-ItemDisplay[r27]: %RED%>>>>>> %PURPLE%%RUNENAME% %WHITE%[27] %RED%<<<<<<
+ItemDisplay[r27]: %RED%> > > > > > %PURPLE%%NAME% %WHITE%[27] %RED%< < < < < <
 //LO
-ItemDisplay[r28]: %RED%>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[28] %RED%<<<<<<<<
+ItemDisplay[r28]: %RED%> > > > > > > > %PURPLE%%NAME% %WHITE%[28] %RED%< < < < < < < <
 //SUR
-ItemDisplay[r29]: %RED%>>>>>>> %PURPLE%%RUNENAME% %WHITE%[29] %RED%<<<<<<<
+ItemDisplay[r29]: %RED%> > > > > > > %PURPLE%%NAME% %WHITE%[29] %RED%< < < < < < <
 //BER
-ItemDisplay[r30]: %RED%>>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[30] %RED%<<<<<<<<<
+ItemDisplay[r30]: %RED%> > > > > > > > > %PURPLE%%NAME% %WHITE%[30] %RED%< < < < < < < < <
 //JAH
-ItemDisplay[r31]: %RED%>>>>>>>>>> %PURPLE%%RUNENAME% %WHITE%[31] %RED%<<<<<<<<<<
+ItemDisplay[r31]: %RED%> > > > > > > > > > %PURPLE%%NAME% %WHITE%[31] %RED%< < < < < < < < < <
 //CHAM
-ItemDisplay[r32]: %RED%>>>> %PURPLE%%RUNENAME% %WHITE%[32] %RED%<<<<
+ItemDisplay[r32]: %RED%> > > > %PURPLE%%NAME% %WHITE%[32] %RED%< < < <
 //ZOD
-ItemDisplay[r33]: %RED%>>>>>>%PURPLE%%RUNENAME% %WHITE%[33] %RED%<<<<<<
+ItemDisplay[r33]: %RED%> > > > > > %PURPLE%%NAME% %WHITE%[33] %RED%< < < < < <
 
 //Quest Items
 ItemDisplay[bbb]: %TAN%%NAME%
@@ -472,14 +472,14 @@ ItemDisplay[CL5 NMAG !ETH CLVL<70]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GR
 //Polearms & Spears
 ItemDisplay[ame ETH NMAG TABSK2=3 (SOCK=0 OR SOCK=6]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%ORANGE%+3 skills %GRAY%|%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[amd ETH NMAG TABSK2=3 (SOCK=0 OR SOCK=6]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%ORANGE%+3 skills %GRAY%|%GREEN%%SOCKETS% soc%GRAY%)
-ItemDisplay[ELT NMAG WP7 ETH (SOCK=0 AND SOCK>3)]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
-ItemDisplay[ELT NMAG WP7 !ETH (SOCK=0 AND SOCK>3)]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
+ItemDisplay[ELT NMAG WP7 ETH (SOCK=0 OR SOCK>3)]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
+ItemDisplay[ELT NMAG WP7 !ETH (SOCK=0 OR SOCK>3)]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[EXC NMAG WP7 ETH !SOCK=1 CLVL<70]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[EXC NMAG WP7 !ETH !SOCK=1 CLVL<70]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[NORM NMAG WP7 ETH CLVL<50]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[NORM NMAG WP7 !ETH CLVL<50]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
-ItemDisplay[ELT NMAG WP8 ETH (SOCK=0 AND SOCK>3)]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
-ItemDisplay[ELT NMAG WP8 !ETH (SOCK=0 AND SOCK>3)]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
+ItemDisplay[ELT NMAG WP8 ETH (SOCK=0 OR SOCK>3)]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
+ItemDisplay[ELT NMAG WP8 !ETH (SOCK=0 OR SOCK>3)]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[EXC NMAG WP8 ETH !SOCK=1 CLVL<70]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[EXC NMAG WP8 !ETH !SOCK=1 CLVL<70]: %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
 ItemDisplay[NORM NMAG WP8 ETH CLVL<50]: %GRAY%Eth %WHITE%%NAME% %GRAY%(%GREEN%%SOCKETS% soc%GRAY%)
